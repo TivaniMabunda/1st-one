@@ -13,5 +13,7 @@ div {
   background-color: red;
   animation-name: animatedSquare;
   animation-duration: 4s;
-  animation-iteration-count: infinite;    
+  animation-iteration-count: infinite;
+  transform: translate(100px, 100px) rotate(45deg); 
+  animation-direction: alternate;   
 } 
